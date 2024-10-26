@@ -1,0 +1,9 @@
+export { HeroSection } from "./HeroSection";
+export { ServicesOverview } from "./ServiceOverview";
+export { NicheFeatures } from "./NicheFeatures";
+export { Portfolio } from "./Portfolio";
+export { PricingPlans } from "./PricingPlans";
+export { ProcessOverview } from "./ProcessOverview";
+export { Testimonials } from "./Testimonials";
+export { FAQSection } from "./FAQSection";
+export { CTASection } from "./CTASection";
