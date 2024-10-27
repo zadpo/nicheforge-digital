@@ -18,7 +18,6 @@ export function LandingPage() {
       <NicheFeatures />
       <Portfolio />
       <Testimonials />
-      <PricingPlans />
       <ProcessOverview />
       <FAQSection />
       <CTASection />

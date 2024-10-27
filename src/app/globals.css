@@ -77,3 +77,10 @@ body {
   font-style: normal;
   font-weight: 400 600;
 }
+
+.cta-details-bg {
+  background: url(/uploads/asset1.png);
+  opacity: 90%;
+  background-blend-mode: multiply;
+  background-color: rgb(126, 125, 125);
+}

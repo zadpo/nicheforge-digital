@@ -35,19 +35,19 @@ export const features: Feature[] = [
 
 export const projects: Project[] = [
   {
-    image: "/placeholder.svg",
-    title: "TechNova Solutions",
+    image: "/uploads/proj/proj11.png",
+    title: "Goodmood",
     description: "Increased lead generation by 60%",
   },
   {
-    image: "/placeholder.svg",
-    title: "EcoGreen Products",
-    description: "Improved conversion rate by 40%",
+    image: "/uploads/proj/proj7.png",
+    title: "iluy.ai",
+    description: "A multi-model AI chatbot",
   },
   {
-    image: "/placeholder.svg",
-    title: "FitLife Gym",
-    description: "Boosted membership signups by 50%",
+    image: "/uploads/proj/proj9.png",
+    title: "Corebride Solutions",
+    description: "Bridging Vision Building Success",
   },
 ];
 
@@ -101,12 +101,42 @@ export const pricingPlans: PricingPlan[] = [
 ];
 
 export const processSteps: ProcessStep[] = [
-  { step: "01", title: "Discovery", description: "We learn about your business and goals" },
-  { step: "02", title: "Planning", description: "We create a detailed project plan and timeline" },
-  { step: "03", title: "Design", description: "We craft a custom design that aligns with your brand" },
-  { step: "04", title: "Development", description: "We build your site with cutting-edge technology" },
-  { step: "05", title: "Testing", description: "We rigorously test for quality and performance" },
-  { step: "06", title: "Launch", description: "We ensure a smooth launch and provide training" },
+  // {
+  //   step: "01",
+  //   title: "Discovery",
+  //   description: "We learn about your business and goals",
+  //   image: "/uploads/pro1.png",
+  // },
+  {
+    step: "01",
+    title: "Planning",
+    description: "We create a detailed project plan and timeline",
+    image: "/uploads/pro2.png",
+  },
+  {
+    step: "02",
+    title: "Design",
+    description: "We craft a custom design that aligns with your brand",
+    image: "/uploads/pro3.png",
+  },
+  {
+    step: "03",
+    title: "Development",
+    description: "We build your site with cutting-edge technology",
+    image: "/uploads/pro4.png",
+  },
+  // {
+  //   step: "05",
+  //   title: "Testing",
+  //   description: "We rigorously test for quality and performance",
+  //   image: "/uploads/pro5.png",
+  // },
+  {
+    step: "04",
+    title: "Launch",
+    description: "We ensure a smooth launch and provide training",
+    image: "/uploads/pro6.png",
+  },
 ];
 
 export const faqs: FAQ[] = [

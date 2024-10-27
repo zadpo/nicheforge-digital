@@ -26,8 +26,8 @@ export function Footer() {
   };
 
   return (
-    <footer className="w-full py-6 bg-background">
-      <div className="container px-4 md:px-6">
+    <footer className="w-full pt-12 md:pt-24 lg:pt-32 pb-4 bg-background">
+      <div className=" px-4 md:px-40">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
@@ -58,7 +58,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
             <p>123 Web Street, Digital City, 12345</p>
             <p>Phone: (123) 456-7890</p>
-            <p>Email: info@restaurantweb.com</p>
+            <p>Email: info@nicheforgedigital.com</p>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-2">Get in Touch</h3>
@@ -88,7 +88,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center">
-          <p>&copy; 2024 RestaurantWeb. All rights reserved.</p>
+          <p>&copy; 2024 NicheForge Digital. All rights reserved.</p>
         </div>
       </div>
     </footer>

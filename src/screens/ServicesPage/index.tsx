@@ -1,3 +1,4 @@
+import { CTASection } from "@/components/section/content";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Code, Search, Wrench, Smartphone, ShoppingCart, Globe } from "lucide-react";
@@ -83,7 +84,7 @@ export function ServicesPage() {
     <div className="flex flex-col min-h-screen">
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className=" px-4 md:px-40">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
@@ -120,29 +121,16 @@ export function ServicesPage() {
             </div>
           </div>
         </section>
-
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Ready to Elevate Your Restaurant&apos;s Online Presence?
-                </h2>
-                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Let&apos;s discuss how our services can help your restaurant thrive in the digital world.
-                </p>
-              </div>
-              <div className="space-x-4">
-                <Button asChild>
-                  <Link href="/contact">Get in Touch</Link>
-                </Button>
-                <Button variant="outline" asChild>
-                  <Link href="/portfolio">View Our Work</Link>
-                </Button>
-              </div>
-            </div>
-          </div>
-        </section>
+        <CTASection
+          title="Ready to Elevate Your Business's Online Presence?"
+          description="Get a website that's optimized, fast, and designed to attract more customers."
+          primaryButton={{
+            text: "Schedule a Free Consultation",
+            variant: "secondary",
+            onClick: () => console.log("Primary button clicked"),
+          }}
+          backgroundImage="/path/to/your-background-image.jpg"
+        />{" "}
       </main>
     </div>
   );

@@ -21,7 +21,7 @@ const projects: Project[] = [
     id: 1,
     title: "Gourmet Bistro",
     type: "Fine Dining",
-    image: "/placeholder.svg",
+    image: "/uploads/pro3.png",
     description:
       "A sleek, modern website for an upscale bistro, featuring an interactive menu and reservation system.",
     results: "Increased online reservations by 40%",
@@ -30,7 +30,7 @@ const projects: Project[] = [
     id: 2,
     title: "Sushi Express",
     type: "Asian",
-    image: "/placeholder.svg",
+    image: "/uploads/pro3.png",
     description: "Fast, responsive design for a popular sushi chain, with online ordering capabilities.",
     results: "Boosted online orders by 60%",
   },
@@ -38,7 +38,7 @@ const projects: Project[] = [
     id: 3,
     title: "Pizza Palace",
     type: "Casual Dining",
-    image: "/placeholder.svg",
+    image: "/uploads/pro3.png",
     description: "Fun, vibrant website with a custom pizza builder and delivery tracking system.",
     results: "Improved customer engagement by 50%",
   },
@@ -46,7 +46,7 @@ const projects: Project[] = [
     id: 4,
     title: "Green Leaf Cafe",
     type: "Cafe",
-    image: "/placeholder.svg",
+    image: "/uploads/pro3.png",
     description: "Eco-friendly themed website for a vegan cafe, featuring a blog and events calendar.",
     results: "Increased foot traffic by 30%",
   },
@@ -54,7 +54,7 @@ const projects: Project[] = [
     id: 5,
     title: "Taco Fiesta",
     type: "Mexican",
-    image: "/placeholder.svg",
+    image: "/uploads/pro3.png",
     description: "Colorful, mobile-first design for a taco truck business with location tracking.",
     results: "Grew social media following by 80%",
   },
@@ -62,7 +62,7 @@ const projects: Project[] = [
     id: 6,
     title: "Pasta Paradise",
     type: "Italian",
-    image: "/placeholder.svg",
+    image: "/uploads/pro3.png",
     description:
       "Elegant website for an Italian restaurant, showcasing their handmade pasta and wine selection.",
     results: "Increased average order value by 25%",
@@ -90,7 +90,7 @@ export function PortfolioPage() {
     <div className="flex flex-col min-h-screen">
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
+          <div className=" px-4 md:px-40">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
@@ -163,7 +163,7 @@ export function PortfolioPage() {
         </section>
 
         <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
-          <div className="container px-4 md:px-6">
+          <div className=" px-4 md:px-40">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

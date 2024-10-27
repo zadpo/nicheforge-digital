@@ -17,8 +17,8 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b bg-background lg:px-10 px-4">
-      <div className="container flex h-16 items-center justify-between">
+    <header className="sticky top-0 z-40 w-full border-b bg-background lg:px-40 px-4">
+      <div className=" flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <span className="inline-block font-bold">NicheForge Digital</span>
         </Link>
