@@ -2,7 +2,6 @@ import { CTASection } from "@/components/section/content";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Code, Search, Wrench, Smartphone, ShoppingCart, Globe } from "lucide-react";
-import Link from "next/link";
 
 export function ServicesPage() {
   const services = [
@@ -121,16 +120,7 @@ export function ServicesPage() {
             </div>
           </div>
         </section>
-        <CTASection
-          title="Ready to Elevate Your Business's Online Presence?"
-          description="Get a website that's optimized, fast, and designed to attract more customers."
-          primaryButton={{
-            text: "Schedule a Free Consultation",
-            variant: "secondary",
-            onClick: () => console.log("Primary button clicked"),
-          }}
-          backgroundImage="/path/to/your-background-image.jpg"
-        />{" "}
+        <CTASection />
       </main>
     </div>
   );

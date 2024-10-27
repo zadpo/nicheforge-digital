@@ -117,7 +117,7 @@ export function PricingPage() {
                 Ready to get started?
               </h2>
               <p className=" max-w-[700px] text-left text-primary-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Choose the plan that's right for you or contact us for a custom solution.
+                Choose the plan that&apos;s right for you or contact us for a custom solution.
               </p>
             </div>
             <div className="space-x-4 pl-20 pt-4">

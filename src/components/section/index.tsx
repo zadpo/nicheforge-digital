@@ -4,7 +4,6 @@ import {
   HeroSection,
   NicheFeatures,
   Portfolio,
-  PricingPlans,
   ProcessOverview,
   ServicesOverview,
   Testimonials,
